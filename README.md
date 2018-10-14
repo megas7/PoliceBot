@@ -25,7 +25,9 @@ The PoliceBot will scan the server and compare every members username/nickname t
 
 2. Install discord.py and datetime package with pip3
 
-3. Run bot on separate screen or append as background process
+3. Update configuration variables in policebot.py
+
+4. Run bot on separate screen or append as background process
 
 ## Credits
 Created with :heart: by tooshameless and gwal
