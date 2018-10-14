@@ -81,7 +81,7 @@ async def scanmembers():
                             print(member.id)
                             await client.change_nickname(member,"SCAMMER")
                             await client.add_roles(member, role)
-                            await client.send_message(channel, 'everyone ,\n***ALERT! SCAMMER FOUND! ALERT!*** \nStart shaming ***SCAMMER***, they would DM as ***'+str(member)+'*** with discord ID '+member.id)
+                            await client.send_message(channel, '@everyone ,\n***ALERT! SCAMMER FOUND! ALERT!*** \nStart shaming ***SCAMMER***, they would DM as ***'+str(member)+'*** with discord ID '+member.id)
                             logScammerInfo(member,member.id)
         if str(counter)[-1:] == '0':
             await client.send_message(channel, 'Reporting All Clear')
